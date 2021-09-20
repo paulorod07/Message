@@ -10,11 +10,13 @@ import UIKit
 class LoginViewController: UIViewController {
     
     var loginScreen: LoginScreen?
+    var alert: Alert?
     
     override func loadView() {
         self.loginScreen = LoginScreen()
         
         self.view = self.loginScreen
+        self.alert = Alert(controller: self)
     }
     
     override func viewDidLoad() {
@@ -33,7 +35,7 @@ class LoginViewController: UIViewController {
 extension LoginViewController: LoginScreenProtocol {
     
     func actionLoginButton() {
-        print("actionLoginButton")
+        self.alert?.getAlert(title: "Atenção", message: "Dados incorretos, verifique e tente novamente")
     }
     
     func actionRegisterButton() {
