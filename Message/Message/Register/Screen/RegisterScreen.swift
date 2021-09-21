@@ -35,8 +35,7 @@ class RegisterScreen: UIView {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         
-        imageView.image = UIImage(systemName: "person")
-        imageView.tintColor = .white
+        imageView.image = UIImage(named: "add-user")
         imageView.contentMode = .scaleAspectFit
         
         return imageView
