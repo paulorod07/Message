@@ -69,6 +69,9 @@
 		3AE1DF1626FA5530009B0F63 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		3AE1DF1826FA56F5009B0F63 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		3AE1DF1A26FA5A1B009B0F63 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		3AE1DF1D26FA5B5A009B0F63 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		3AE1DF1E26FA5B5B009B0F63 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		3AE1DF1F26FA5B5B009B0F63 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		41F3A2E84A362DEA96D86F43 /* Pods-Message.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Message.release.xcconfig"; path = "Target Support Files/Pods-Message/Pods-Message.release.xcconfig"; sourceTree = "<group>"; };
 		42ADFC1756B897AF3161CFE3 /* Pods_MessageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D14C10615DC624888E38717 /* Pods-MessageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageTests.release.xcconfig"; path = "Target Support Files/Pods-MessageTests/Pods-MessageTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -223,11 +226,22 @@
 		3AE1DF1526FA5442009B0F63 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3AE1DF1C26FA5AD1009B0F63 /* Fonts */,
 				3AE1DF1626FA5530009B0F63 /* Extension+UIView.swift */,
 				3AE1DF1826FA56F5009B0F63 /* CustomColor.swift */,
 				3AE1DF1A26FA5A1B009B0F63 /* CustomFont.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		3AE1DF1C26FA5AD1009B0F63 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3AE1DF1E26FA5B5B009B0F63 /* Poppins-Medium.ttf */,
+				3AE1DF1F26FA5B5B009B0F63 /* Poppins-Bold.ttf */,
+				3AE1DF1D26FA5B5A009B0F63 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		3E9CBA20F195E688D2A56551 /* Pods */ = {
