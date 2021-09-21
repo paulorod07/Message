@@ -20,6 +20,7 @@
 		3AA9FA9726F8D972006D39A6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA9FA9226F8D972006D39A6 /* RegisterViewController.swift */; };
 		3AE1DF1426FA3732009B0F63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AE1DF1326FA3732009B0F63 /* GoogleService-Info.plist */; };
 		3AE1DF1726FA5530009B0F63 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1DF1626FA5530009B0F63 /* Extension+UIView.swift */; };
+		3AE1DF1926FA56F5009B0F63 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1DF1826FA56F5009B0F63 /* CustomColor.swift */; };
 		660A8593B96E5AA77948D9D0 /* Pods_Message.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33721CF9B80C6E11B3294B75 /* Pods_Message.framework */; };
 		A3B400666C0C53320811E150 /* Pods_Message_MessageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F072840EC4EB9C9B16E7820 /* Pods_Message_MessageUITests.framework */; };
 		AE9EA07B7F6A6D07418FABD5 /* Pods_MessageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ADFC1756B897AF3161CFE3 /* Pods_MessageTests.framework */; };
@@ -65,6 +66,7 @@
 		3AA9FA9226F8D972006D39A6 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3AE1DF1326FA3732009B0F63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3AE1DF1626FA5530009B0F63 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		3AE1DF1826FA56F5009B0F63 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
 		41F3A2E84A362DEA96D86F43 /* Pods-Message.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Message.release.xcconfig"; path = "Target Support Files/Pods-Message/Pods-Message.release.xcconfig"; sourceTree = "<group>"; };
 		42ADFC1756B897AF3161CFE3 /* Pods_MessageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D14C10615DC624888E38717 /* Pods-MessageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageTests.release.xcconfig"; path = "Target Support Files/Pods-MessageTests/Pods-MessageTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				3AE1DF1626FA5530009B0F63 /* Extension+UIView.swift */,
+				3AE1DF1826FA56F5009B0F63 /* CustomColor.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 			files = (
 				3AA9FA9626F8D972006D39A6 /* RegisterScreen.swift in Sources */,
 				3AA9FA9426F8D972006D39A6 /* LoginViewController.swift in Sources */,
+				3AE1DF1926FA56F5009B0F63 /* CustomColor.swift in Sources */,
 				3AE1DF1726FA5530009B0F63 /* Extension+UIView.swift in Sources */,
 				3AA9FA9726F8D972006D39A6 /* RegisterViewController.swift in Sources */,
 				3A511E9D26F8C47E00F7D506 /* AppDelegate.swift in Sources */,
