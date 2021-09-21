@@ -6,16 +6,19 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginViewController: UIViewController {
     
     var loginScreen: LoginScreen?
+    var auth: Auth?
     var alert: Alert?
     
     override func loadView() {
         self.loginScreen = LoginScreen()
         
         self.view = self.loginScreen
+        self.auth = Auth.auth()
         self.alert = Alert(controller: self)
     }
     
@@ -35,7 +38,23 @@ class LoginViewController: UIViewController {
 extension LoginViewController: LoginScreenProtocol {
     
     func actionLoginButton() {
-        self.alert?.getAlert(title: "Atenção", message: "Dados incorretos, verifique e tente novamente")
+        guard let login = self.loginScreen else { return }
+        
+        self.auth?.signIn(withEmail: login.getEmail(), password: login.getPassword(), completion: { user, error in
+            
+            if let error = error {
+                print("error = ", error)
+                self.alert?.getAlert(title: "Atenção", message: "Dados incorretos, verifique e tente novamente")
+            } else {
+                if user != nil {
+                    // navigate...
+                } else {
+                    self.alert?.getAlert(title: "Atenção", message: "Tivemos um problema inesperado, Tenten novamente mais tarde")
+                }
+                
+            }
+            
+        })
     }
     
     func actionRegisterButton() {
