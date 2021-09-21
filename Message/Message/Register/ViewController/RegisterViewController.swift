@@ -34,6 +34,13 @@ extension RegisterViewController: UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        if textField == self.registerScreen?.emailTextField {
+            self.registerScreen?.passwordTextField.becomeFirstResponder()
+        } else {
+            self.registerScreen?.passwordTextField.resignFirstResponder()
+        }
+        
         return textField.resignFirstResponder()
     }
     
