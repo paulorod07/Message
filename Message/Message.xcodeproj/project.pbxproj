@@ -22,6 +22,7 @@
 		3AE1DF1726FA5530009B0F63 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1DF1626FA5530009B0F63 /* Extension+UIView.swift */; };
 		3AE1DF1926FA56F5009B0F63 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1DF1826FA56F5009B0F63 /* CustomColor.swift */; };
 		3AE1DF1B26FA5A1B009B0F63 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1DF1A26FA5A1B009B0F63 /* CustomFont.swift */; };
+		3AE1DF2326FA5D14009B0F63 /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE1DF2226FA5D14009B0F63 /* Extension+String.swift */; };
 		660A8593B96E5AA77948D9D0 /* Pods_Message.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33721CF9B80C6E11B3294B75 /* Pods_Message.framework */; };
 		A3B400666C0C53320811E150 /* Pods_Message_MessageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F072840EC4EB9C9B16E7820 /* Pods_Message_MessageUITests.framework */; };
 		AE9EA07B7F6A6D07418FABD5 /* Pods_MessageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ADFC1756B897AF3161CFE3 /* Pods_MessageTests.framework */; };
@@ -72,6 +73,7 @@
 		3AE1DF1D26FA5B5A009B0F63 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		3AE1DF1E26FA5B5B009B0F63 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		3AE1DF1F26FA5B5B009B0F63 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		3AE1DF2226FA5D14009B0F63 /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		41F3A2E84A362DEA96D86F43 /* Pods-Message.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Message.release.xcconfig"; path = "Target Support Files/Pods-Message/Pods-Message.release.xcconfig"; sourceTree = "<group>"; };
 		42ADFC1756B897AF3161CFE3 /* Pods_MessageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D14C10615DC624888E38717 /* Pods-MessageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageTests.release.xcconfig"; path = "Target Support Files/Pods-MessageTests/Pods-MessageTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				3AE1DF1626FA5530009B0F63 /* Extension+UIView.swift */,
 				3AE1DF1826FA56F5009B0F63 /* CustomColor.swift */,
 				3AE1DF1A26FA5A1B009B0F63 /* CustomFont.swift */,
+				3AE1DF2226FA5D14009B0F63 /* Extension+String.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -512,6 +515,7 @@
 				3AA9FA9726F8D972006D39A6 /* RegisterViewController.swift in Sources */,
 				3AE1DF1B26FA5A1B009B0F63 /* CustomFont.swift in Sources */,
 				3A511E9D26F8C47E00F7D506 /* AppDelegate.swift in Sources */,
+				3AE1DF2326FA5D14009B0F63 /* Extension+String.swift in Sources */,
 				3A511E9F26F8C47E00F7D506 /* SceneDelegate.swift in Sources */,
 				3AA9FA9526F8D972006D39A6 /* Alert.swift in Sources */,
 				3AA9FA9326F8D972006D39A6 /* LoginScreen.swift in Sources */,
