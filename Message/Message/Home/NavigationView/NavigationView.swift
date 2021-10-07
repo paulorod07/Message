@@ -106,7 +106,7 @@ class NavigationView: UIView {
         button.translatesAutoresizingMaskIntoConstraints = false
         
         button.setImage(UIImage(named: "group")?.withRenderingMode(.alwaysTemplate), for: .normal)
-        button.tintColor = .systemPink
+        button.tintColor = .black
         button.addTarget(self, action: #selector(self.tappedContactButton), for: .touchUpInside)
         
         return button
