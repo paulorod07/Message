@@ -257,9 +257,9 @@
 		3AE1DF2426FA63C2009B0F63 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3AE98AA5270E91FD007E96B7 /* ViewController */,
 				3AE1DF2A26FA6503009B0F63 /* NavigationView */,
 				3AE1DF2726FA6421009B0F63 /* Screen */,
-				3AE1DF2526FA63EA009B0F63 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -278,6 +278,14 @@
 				3AE1DF2B26FA6525009B0F63 /* NavigationView.swift */,
 			);
 			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		3AE98AA5270E91FD007E96B7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3AE1DF2526FA63EA009B0F63 /* HomeViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		3E9CBA20F195E688D2A56551 /* Pods */ = {
