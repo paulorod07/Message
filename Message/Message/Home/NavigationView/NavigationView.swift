@@ -165,7 +165,7 @@ class NavigationView: UIView {
             
             self.searchBar.leadingAnchor.constraint(equalTo: self.navigationBar.leadingAnchor, constant: 30),
             self.searchBar.centerYAnchor.constraint(equalTo: self.navigationBar.centerYAnchor),
-            self.searchBar.trailingAnchor.constraint(equalTo: self.navigationBar.leadingAnchor, constant: -20),
+            self.searchBar.trailingAnchor.constraint(equalTo: self.stackView.leadingAnchor, constant: -20),
             self.searchBar.heightAnchor.constraint(equalToConstant: 55),
             
             
