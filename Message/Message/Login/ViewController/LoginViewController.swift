@@ -47,7 +47,13 @@ extension LoginViewController: LoginScreenProtocol {
                 self.alert?.getAlert(title: "Atenção", message: "Dados incorretos, verifique e tente novamente")
             } else {
                 if user != nil {
-                    // navigate...
+                    let homeViewController = HomeViewController()
+                    
+                    let navigationController = UINavigationController(rootViewController: homeViewController)
+                    
+                    navigationController.modalPresentationStyle = .fullScreen
+                    
+                    self.present(navigationController, animated: true, completion: nil)
                 } else {
                     self.alert?.getAlert(title: "Atenção", message: "Tivemos um problema inesperado, Tenten novamente mais tarde")
                 }
